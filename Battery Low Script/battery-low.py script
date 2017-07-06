@@ -1,0 +1,15 @@
+#!/bin/bash
+
+sleep 6
+
+while true ; do
+	status=$(python /etc/init.d/battery-low.py)
+	if ((status == 1)); then
+		sudo wall -n "Battery Low!!! Shutdown in 5 minutes!!!"
+		sudo shutdown --no-wall -h +5
+		sleep 1000
+	fi
+	if ((status == 0)); then
+		sleep 60
+	fi
+done
