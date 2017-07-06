@@ -1,0 +1,9 @@
+Zymbit: 
+-	To install, run: curl -G https://s3-us-west-1.amazonaws.com/zymkey-ab-alpha/install-zymkey-alpha.sh | sudo bash
+-	Programming references: 
+https://s3-us-west-1.amazonaws.com/zymkey-ab-alpha/zkAppUtilsClass.cpp.pdf
+https://s3-us-west-1.amazonaws.com/zymkey-ab-alpha/zk_app_utils.c.pdf
+https://s3-us-west-1.amazonaws.com/zymkey-ab-alpha/zk_app_utils.py.pdf
+
+GPS: 
+-	Installation: https://learn.adafruit.com/adafruit-ultimate-gps-hat-for-raspberry-pi/use-gpsd
