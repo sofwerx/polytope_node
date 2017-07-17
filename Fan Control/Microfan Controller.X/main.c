@@ -33,11 +33,11 @@ void main(void)
         unsigned int therm;
 
         therm = ADCRead();
-        if ( therm > 60 ) 
+        if ( therm > 266 ) 
         {
             PORTCbits.RC1 = 0b00010000;
         }
-        else if ( 0 < therm <= 60 )
+        else if ( 0 < therm <= 266 )
         {
             PORTCbits.RC1 = 0b00000000;   
         }
